@@ -2,4 +2,4 @@ version: 1
 type: pipeline-template-catalog
 
 name: timPlateCatalog
-displayName: A very base-level template catalog with a variety of sample templates
+displayName: The "Timplate" Catalog
