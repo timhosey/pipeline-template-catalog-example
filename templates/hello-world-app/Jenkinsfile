@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello World') { 
             steps {
-                echo "Hello, ${targetName}!"
+                echo "Way to go, ${targetName}!"
             }
         }
         stage('Wait') { 
