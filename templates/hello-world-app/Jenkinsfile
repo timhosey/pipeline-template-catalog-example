@@ -15,8 +15,6 @@ pipeline {
     }
 
     post {
-
-      // Email Ext plugin: 
       success {  
         echo "SUCCESSFUL RUN!"
       }
