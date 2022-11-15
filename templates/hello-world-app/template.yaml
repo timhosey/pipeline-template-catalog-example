@@ -1,8 +1,8 @@
 version: 1
 type: pipeline-template
 
-name: Hello World Job
-description: Simple Hello World Pipeline
+name: Hello World Job Feature Test
+description: Simple Hello World Pipeline Feature Test
 parameters:
   - name: targetName
     type: string
