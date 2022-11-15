@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('Hello World') { 
+            steps {
+                echo "Hello, ${targetName}!"
+            }
+        }
+        stage('Wait') { 
+            steps {
+                sleep 60 
+            }
+        }
+    }
+
+    post {
+
+      // Email Ext plugin: 
+      success {  
+        echo "SUCCESSFUL RUN!"
+      }
+
+      failure {
+        echo "FAILED RUN!"
+      }
+
+      aborted {
+        echo "ABORTED RUN!"
+      }
+  }
+}

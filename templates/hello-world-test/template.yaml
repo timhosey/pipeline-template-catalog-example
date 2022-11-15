@@ -1,0 +1,9 @@
+version: 1
+type: pipeline-template
+
+name: Hello World Job
+description: Simple Hello World Pipeline
+parameters:
+  - name: targetName
+    type: string
+    displayName: Name to target the "Hello" to
