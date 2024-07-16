@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Wait') { 
             steps {
-                sleep 60 
+                sleep sleepTime
             }
         }
     }
