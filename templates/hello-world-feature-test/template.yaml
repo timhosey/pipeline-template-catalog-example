@@ -7,3 +7,6 @@ parameters:
   - name: targetName
     type: string
     displayName: Name to target the "Hello" to
+  - name: sleepTime
+    type: number
+    displayName: How long to sleep
